@@ -27,6 +27,8 @@ requirements:
     - pip
     - setuptools
     - setuptools_scm
+    - poetry-core
+    - poetry-dynamic-versioning
   run:
     - python >=${{ python_min }}
     - numpy
