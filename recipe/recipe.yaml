@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: lisaconstants
-  version: 1.3.6
+  version: 2.0.1
   python_min: 3.10
 
 package:
@@ -11,10 +11,10 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/${{ name | first }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 9f8c1d1dce991b8824a96ad1bb939b09ddf2c7f8c0cead5023e1cf2bff9befa5
+  sha256: e23d9d80f9be935606e62947ad64bf4555c142337941f3cc625b56cc3e2a6082
 
 build:
-  number: 2
+  number: 0
   noarch: python
   script:
     env:
