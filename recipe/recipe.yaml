@@ -2,8 +2,8 @@ schema_version: 1
 
 context:
   name: lisaconstants
-  version: 2.0.1
-  python_min: 3.10
+  version: 2.0.2
+  python_min: 3.11
 
 package:
   name: ${{ name|lower }}
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/${{ name | first }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: e23d9d80f9be935606e62947ad64bf4555c142337941f3cc625b56cc3e2a6082
+  sha256: 8b37c261810d09af964fd4cf1d2012c3b93994a811d90fd0a2d47e00a3c02400
 
 build:
   number: 0
@@ -61,9 +61,9 @@ about:
     simulation of the instrument, of gravitational wave signals, and others.
   license: BSD-3-Clause
   license_file: LICENSE
-  homepage: https://gitlab.in2p3.fr/lisa-simulation/constants
-  repository: https://gitlab.in2p3.fr/lisa-simulation/constants
-  documentation: https://lisa-simulation.pages.in2p3.fr/constants/latest
+  homepage: https://gitlab.esa.int/lisa-sgs/commons/lisa-constants
+  repository: https://gitlab.esa.int/lisa-sgs/commons/lisa-constants
+  documentation: https://lisa-sgs.io.esa.int/commons/lisa-constants
 
 extra:
   recipe-maintainers:
